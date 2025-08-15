@@ -14,7 +14,37 @@
         <script src="postcss.config.js"></script>
     </head>
     <body>
-		<div class="container bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl">
+		<div class="hdb flex flex-nowrap bg-[#EDF1F9] mb-[50px] w-[1440px] h-[80px]">
+			<div class="mainb gap-[12px] flex flex-nowrap my-[20px] mx-[84px] w-[1272px] h-[40px]">
+			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
+				<img src="masura.svg"/>
+				</div>
+				<div class="">
+				<button class="catalogb bg-[url(list-svgrepo-com.svg)] svgcatl fw-5 mr-[32px] ml-[32px] align-end w-[145px] h-[36px] text-[16px] rounded-[32px] py-[8px] py-[24px] text-[white] bg-[#1B2230]">Каталог</button>
+				</div>
+				<div class="secondb gap-[24px] flex align-center m-[4px]">
+				<button class="f hoverpay fw-5">Оплата</button>
+				<button class="f fw-5">Доставка</button>
+				<button class="f fw-5">Партнеры</button>
+				<button class="f fw-5">Акции</button>
+				<button class="f fw-5">Журнал</button>
+				</div>
+				<div class="search-main gap-[12px] flex">
+				<input class="search ssvg w-[192px] h-[36px] ml-[50px] mt-[2px] mb-[2px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv"></span>
+				<div class="user-main flex gap-[16px] m-[4px]">
+				<div class="user">
+				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
+				</div>
+				<div class="basket">
+				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-58px botton-15px p-px overflow-hidden">99</div>
+				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
+				</div>
+				</div>
+				</div>
+		</div>
+		</div>
+		<div class="container bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
 			<div class="box1 flex flex-wrap justify-center py-2">
 				<button class="btn base1 bg-[#1B2230] text-neutral-50 px-8 py-2.5 rounded-lg hover:bg-[#373F4F] focus:bg-[#373F4F] focus:outline-2 focus:outline-[#9AAACC]">Button</button>
 			</div>
@@ -29,50 +59,483 @@
 		<div class="container bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
 			<div class="container2">
 			<div class="box3 fw-4 flex flex-nowrap">
-				<div class="place">
+				<div class="place ">
 					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
 					<input
 						name="text_input"
 						type="email"
 						id="email"
 						placeholder="Input placeholder"
-						class="inpt base2 fw-4 rounded-xs py-[8px] pr-[12px] outline outline-stone-950 bg-stone-100 text-red-950 placeholder:pl-4 focus:placeholder:text-[#1B2230] focus:border-black"  />
-					<span class="validity-icon"></span>
+						class="inpt base2 relative fw-4 rounded-xs py-[8px] pr-[12px] outline outline-stone-950 bg-stone-100 text-red-950 placeholder:pl-4 focus:placeholder:text-[#1B2230] focus:outline-[#A6B3CD] focus:outline-[4px] " />
+					<span class="absolute"><img class="relative invisible peer-invalid:visible right-[18px] top-[10px] border-2 border-[#535C6F] rounded-[50%] w-[13px] h-[13px]" src="close.svg"/></span>
+					<span class="absolute"><img class="relative invisible peer-valid:visible right-[18px] top-[10px] bg-[#535C6F] rounded-[50%] w-[13px] h-[13px]" src="check.svg"/></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 			</div>
 			<div class="box4 fw-4 flex flex-wrap gap-10 my-4">
 				<div class="place">
 					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
-					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt rounded-xs py-[8px] pr-[12px] placeholder:pl-4 outline outline-stone-50 bg-stone-100 text-red-950" />
+					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt rounded-xs outline outline-stone-950 py-[8px] pr-[12px] placeholder:pl-4 outline outline-stone-50 bg-stone-100 text-red-950" />
 					<span class="validity-icon"></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 				<div class="place">
 					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
-					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt hover1 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
+					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt hover1 outline outline-stone-950 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
 					<span class="validity-icon"></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 				<div class="place">
 					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
-					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt focus1 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
+					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt focus1 outline outline-stone-950 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 placeholder:text-[#1B2230] py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
 					<span class="validity-icon"></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 				<div class="place">
 					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
-					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt filled1 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
+					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt filled1 outline outline-stone-950 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 placeholder:text-[#1B2230] py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
 					<span class="validity-icon"></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 				<div class="place">
 					<label for="email" class="label1 label11 flex text-sm mb-1"> Input Label </label>
-					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt disabled1 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
+					<input name="text_input" type="email" placeholder="Input placeholder" class="inpt disabled1 outline outline-stone-950 py-[8px] pr-[12px] rounded-xs placeholder:pl-4 py-2 outline outline-stone-50 bg-stone-100 text-red-950" />
 					<span class="validity-icon"></span>
 					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 			</div>
+		</div>
+		</div>
+		<div class="container3 min-w-5xl m-[30px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
+			<div class="box5 flex mt-[20px] ml-[30px] gap-[12px]">
+				<div role="tabpanel" tabindex="-1" class="imagesb bb cursor-pointer focus:outline-[3px] focus:outline-[#9AAACC] hover:shadow-2xl bg-[white] rounded-[18px] w-[300px]
+														  max-[1280px]:bg-[white] max-[1280px]:rounded-[18px] max-[1280px]:w-[196px] max-[1280px]:h-[245px]
+														  max-[960px]:bg-[white] max-[960px]:rounded-[8px] max-[960px]:w-[100px] max-[960px]:h-[130px]">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse ml-[24px] mr-[24px] mt-[24px] rounded-[12px] w-[252px] h-[252px]
+													max-[1280px]:ml-[12px] max-[1280px]:mr-[12px] max-[1280px]:mt-[12px] max-[1280px]:rounded-[12px] max-[1280px]:w-[172px] max-[1280px]:h-[172px]
+													max-[960px]:ml-[6px] max-[960px]:mr-[6px] max-[960px]:mt-[6px] max-[960px]:rounded-[6px] max-[960px]:w-[88px] max-[960px]:h-[88px]" />
+					</picture>
+					<div class="textimg fw-6 pb-[24px] mt-[16px] ml-[24px] mr-[24px] fw-6 text-xl
+								 max-[1280px]:pb-[12px]  max-[1280px]:mt-[12px]  max-[1280px]:ml-[12px]  max-[1280px]:mr-[16px]  max-[1280px]:fw-6  max-[1280px]:text-sm
+								max-[960px]:fw-6 pb-[24px] max-[960px]:mt-[6px] max-[960px]:ml-[6px] max-[960px]:mr-[6px] max-[960px]:fw-6 max-[960px]:text-[10px]">Дом на одиноком острове</div>
+				</div>
+			</div>
+			<div class="box6 flex mt-[20px] ml-[30px] gap-[12px]">
+				<div class="images  bg-[white] rounded-[18px] w-[300px]">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse0  ml-[24px] mr-[24px] mt-[24px] rounded-[12px] w-[252px] h-[252px] " />
+					</picture>
+					<div class="textimg0 fw-6 pb-[24px] mt-[16px] ml-[24px] mr-[24px] text-xl">Дом на одиноком островe</div>
+				</div>
+				<div class="images  bg-[white] rounded-[18px] w-[300px] hover3 shadow-2xl">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse0 ml-[24px] mr-[24px] mt-[24px] rounded-[12px] w-[252px] h-[252px]" />
+					</picture>
+					<div class="textimg0 fw-6 pb-[24px] mt-[16px] ml-[24px] mr-[24px] fw-6 text-xl">Дом на одиноком острове</div>
+				</div>
+				<div class="images outline-[3px] outline-[#9AAACC] bg-[white] rounded-[18px] w-[300px] focus3">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse0 ml-[24px] mr-[24px] mt-[24px] rounded-[12px] w-[252px] h-[252px]" />
+					</picture>
+					<div class="textimg0 fw-6 pb-[24px] mt-[16px] ml-[24px] mr-[24px] fw-6 text-xl">Дом на одиноком острове</div>
+				</div>
+			</div>
+			<div class="box7 flex mt-[20px] ml-[30px] gap-[12px] mb-[20px]">
+				<div class="images1  bg-[white] rounded-[18px] w-[300px]">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse1  ml-[24px] mr-[24px] mt-[24px] rounded-[12px] w-[252px] h-[252px]" />
+					</picture>
+					<div class="textimg1 fw-6 pb-[24px] mt-[16px] ml-[24px] mr-[24px] fw-6 text-xl">Дом на одиноком острове</div>
+				</div>
+				<div class="images2 bg-[white] rounded-[18px] w-[196px] h-[245px]">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse2  ml-[12px] mr-[12px] mt-[12px] rounded-[12px] w-[172px] h-[172px]" />
+					</picture>
+					<div class="textimg2 fw-6 pb-[12px] mt-[12px] ml-[12px] mr-[16px] fw-6 text-sm">Дом на одиноком острове</div>
+				</div>
+				<div class="images3 bg-[white] rounded-[8px] w-[100px] h-[130px]">
+					<picture>
+						<source srcset="house.webp" type="image/webp" />
+						<source srcset="house.jpg" type="image/jpg" />
+						<img src="house.png" class="imagehouse3  ml-[6px] mr-[6px] mt-[6px] rounded-[6px] w-[88px] h-[88px]" />
+					</picture>
+					<div class="textimg3 fw-6 pb-[24px] mt-[6px] ml-[6px] mr-[6px] fw-6 text-[10px]">Дом на одиноком острове</div>
+				</div>
+			</div>
+		</div>
+		<div class="container4 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
+			<div class="box8 flex mt-[20px] ml-[30px] gap-[12px]">
+				<div role="tabpanel" tabindex="0" class="card0 cursor-pointer focus:outline-[3px] focus:outline-[#9AAACC] hover:shadow-2xl bg-[white] rounded-[18px] w-[192px]
+														 max-[905px]:rounded-[12px] max-[905px]:w-[156px]  max-[905px]:h-[240px]">
+					<div class="rs0 m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb0">
+							<img src="cream.jpg" class="cream mt-[32px] mb-[16px] mr-[16px] max-w-[100%]
+														max-[905px]:mt-[0px] max-[905px]:mb-[0px] max-[905px]:mr-[0px] max-[905px]:max-w-[100%]" />
+						</div>
+						<div class="textcard text-clip w-[160px] h-[60px] text-[14px] fw-5
+									max-[905px]:w-[130px] max-[905px]:h-[48px] max-[905px]:text-[10px]">Антигрибковый крем для рук и ногтей с ароматом розы 500мл</div>
+						<div class="rating-area mt-[16px] flex gap-[3px]
+									max-[905px]:mt-[0px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center min-[905px]:my-[16px] min-[905px]:mx-[1px]
+								max-[905px]:w-[159px] max-[905px]:text-[14px]">
+						<label class="price1 py-[4px] px-[12px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+			</div>
+			<div class="box9 flex mt-[20px] ml-[30px] gap-[12px]">
+				<div class="card1 bg-[white] rounded-[18px] w-[192px]">
+					<div class="rs m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb">
+							<img src="cream.jpg" class="cream mt-[32px] mb-[16px] mr-[16px] max-w-[100%]" />
+						</div>
+						<div class="textcard text-clip w-[160px] h-[60px] text-[14px] fw-5">Антигрибковый крем для рук и ногтей с ароматом розы 500мл</div>
+						<div class="rating-area mt-[16px] flex gap-[3px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center my-[16px] mx-[1px]">
+						<label class="price1 py-[4px] px-[12px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+				<div class="card2 bg-[white] rounded-[18px] w-[192px] hover4 shadow-2xl">
+					<div class="rs m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb">
+							<img src="cream.jpg" class="cream  mt-[32px] mb-[16px] mr-[16px] max-w-[100%]" />
+						</div>
+						<div class="textcardh hovert text-clip w-[160px] h-[60px] text-[14px] fw-5">
+							Антигрибковый крем для рук и ногтей с ароматом розы 500мл
+						</div>
+						<div class="rating-area mt-[16px] flex gap-[3px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center my-[16px] mx-[1px]">
+						<label class="price1 py-[4px] px-[12px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+				<div class="card3 outline-[3px] outline-[#9AAACC] bg-[white] rounded-[18px] w-[192px] focus4">
+					<div class="rs m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb">
+							<img src="cream.jpg" class="cream  mt-[32px] mb-[16px] mr-[16px] max-w-[100%]" />
+						</div>
+						<div class="textcardf focust text-clip w-[160px] h-[60px] text-[14px] fw-5">
+							Антигрибковый крем для рук и ногтей с ароматом розы 500мл
+						</div>
+						<div class="rating-area mt-[16px] flex gap-[3px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center my-[16px] mx-[1px]">
+						<label class="price1 py-[4px] px-[12px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7 fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+			</div>
+			<div class="box10 flex mt-[20px] ml-[30px] gap-[12px]">
+				<div class="card1 bg-[white] rounded-[18px] w-[192px]">
+					<div class="rs m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb">
+							<img src="cream.jpg" class="cream mt-[32px] mb-[16px] mr-[16px] max-w-[100%]" />
+						</div>
+						<div class="textcard text-clip w-[160px] h-[60px] text-[14px] fw-5">Антигрибковый крем для рук и ногтей с ароматом розы 500мл</div>
+						<div class="rating-area mt-[16px] flex gap-[3px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center my-[16px] mx-[1px]">
+						<label class="price1 py-[4px] px-[12px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+				<div class="card1 bg-[white] rounded-[12px] w-[156px] h-[240px]">
+					<div class="rs m-[12px]">
+						<div class="tags flex gap-[16px] justify-center text-[14px]">
+							<label class="t1 text-[white] text-[10px] bg-[#19C673] fw-4 py-[2px] px-[8px] rounded-[4px]">New</label>
+							<label class="t2 text-[white] text-[10px] bg-[#005AFD] fw-4 py-[2px] px-[8px] rounded-[4px]">Хит</label>
+						</div>
+						<div class="creamb">
+							<img src="cream.jpg" class="cream w-[131px] h-[93px]" />
+						</div>
+						<div class="textcard text-clip w-[130px] h-[48px] text-[10px] fw-5">Антигрибковый крем для рук и ногтей с ароматом розы 500мл</div>
+						<div class="rating-area flex gap-[3px]">
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+							<img class="" src="star-sharp-svgrepo-com.svg"/>
+						</div>
+					</div>
+					<div class="price flex justify-center w-[159px] text-[14px]">
+						<label class="price1 py-[4px] px-[8px] text-[#FD33BD] rounded-[24px] bg-[#EDF1F9] fw-7">4 999 ₽</label>
+						<label class="price2 py-[4px] px-[7px] fw-7 text-[#BDBDBD]">2 999,99 ₽</label>
+					</div>
+				</div>
+				</div>
+			</div>
+		<div class="container5 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% mt-10 rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
+			<div class="box1 mt-[20px] ml-[30px] justify-center flex gap-[12px] mb-[10px]">
+				<div role="tabpanel" tabindex="2" class="cardcenter cursor-pointer rounded-[24px] bg-[white] w-[300px] h-[454px] hover:shadow-2xl focus:outline-[3px] focus:outline-[#9AAACC]
+							max-[905px]:w-[270px] max-[905px]:h-[378px]
+							max-[600px]:rounded-[12px]">
+					<img src="applestone.png" class="card-img max-w-none m-[24px] mb-[16px] w-[252px] h-[254px] rounded-[12px]
+													 max-[905px]:m-[16px]  max-[905px]:mb-[12px]  max-[905px]:w-[238px]
+													 max-[600px]:rounded-[8px]"/>
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[16px]
+									max-[905px]:mb-[8px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:hidden">#Поздравляем</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:hidden">#С Новым Годом</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:hidden">#Акции</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:hidden">#2024</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:hidden">#Идеи для праздников</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:text-[9px]">#Советы по применению</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]  max-[905px]:text-[9px]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[16px]
+									max-[905px]:mt-[8px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box12 flex-nowrap ml-[20px] gap-[16px] flex justify-center">
+				<div class="cardcenter rounded-[24px] bg-[white] w-[300px] h-[454px]">
+					<img src="applestone.png" class="card-img max-w-none m-[24px] mb-[16px] w-[252px] h-[254px] rounded-[12px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[16px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Поздравляем</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#С Новым Годом</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Акции</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#2024</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Идеи для праздников</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[16px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cardcenter rounded-[24px] bg-[white] w-[300px] h-[454px] shadow-2xl">
+					<img src="applestone.png" class="card-img max-w-none m-[24px] mb-[16px] w-[252px] h-[254px] rounded-[12px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[16px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Поздравляем</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#С Новым Годом</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Акции</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#2024</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Идеи для праздников</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[16px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cardcenter rounded-[24px] bg-[white] w-[300px] h-[454px] outline-[3px] outline-[#9AAACC]">
+					<img src="applestone.png" class="card-img max-w-none m-[24px] mb-[16px] w-[252px] h-[254px] rounded-[12px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[16px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Поздравляем</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#С Новым Годом</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Акции</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#2024</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Идеи для праздников</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[16px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+			<div class="box12 flex-nowrap ml-[20px] gap-[16px] flex justify-center mt-[10px]">
+				<div class="cardcenter rounded-[24px] bg-[white] w-[300px] h-[454px]">
+					<img src="applestone.png" class="card-img max-w-none m-[24px] mb-[16px] w-[252px] h-[254px] rounded-[12px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[16px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Поздравляем</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#С Новым Годом</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Акции</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#2024</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Идеи для праздников</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[10px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[16px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cardcenter rounded-[24px] bg-[white] w-[270px] h-[378px]">
+					<img src="applestone.png" class="card-img max-w-none m-[16px] mb-[12px] w-[238px] h-[254px] rounded-[12px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[8px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[9px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[9px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[8px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cardcenter rounded-[12px] bg-[white] w-[270px] h-[378px]">
+					<img src="applestone.png" class="card-img max-w-none m-[16px] mb-[12px] w-[238px] h-[254px] rounded-[8px]" />
+					<div class="mediacenter mr-[24px] ml-[24px]">
+						<div class="textcenter fw-7 text-[18px] mb-[8px]">«В Центре Внимания»</div>
+						<div class="hashtags gap-[4px] flex flex-wrap overflow-hidden">
+							<div class="hash1 text-[9px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Советы по применению</div>
+							<div class="hash1 text-[9px] rounded-[32px] py-[2px] px-[8px] bg-[#E5EFFF]">#Мастер-классы</div>
+						</div>
+						<div class="social flex gap-[16px] mt-[8px]">
+							<div class="lik flex gap-[6px]">
+								<span class="like"><img src="like-svgrepo-com.svg"/></span>
+								<label class="howmuch align-top text-[#A6B3CD]">144</label>
+							</div>
+							<div class="view flex gap-[6px]">
+								<span class="viewed"><img src="eye-open-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">964</label>
+							</div>
+							<div class="flex gap-[6px]">
+								<span class="comments"><img src="conversation-bubble-chat-chat-communication-spech-svgrepo-com.svg"/></span>
+								<label class="howmuch text-[#A6B3CD]">24</label>
+							</div>
+						</div>
+					</div>
+				</div>
 		</div>
 		</div>
     </body>

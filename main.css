@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+background-color: #595959;
+font-family: Roboto;}
+
 .fw-9{font-weight: 900;}
 .fw-8{font-weight: 800;}
 .fw-7{font-weight: 700;}
