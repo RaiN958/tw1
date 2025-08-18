@@ -296,6 +296,9 @@
   .mt-\[32px\] {
     margin-top: 32px;
   }
+  .mr-\[5px\] {
+    margin-right: 5px;
+  }
   .mr-\[6px\] {
     margin-right: 6px;
   }
@@ -487,6 +490,9 @@
   }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-\[796px\] {
+    width: 796px;
   }
   .w-\[907px\] {
     width: 907px;
