@@ -14,13 +14,61 @@
         <script src="postcss.config.js"></script>
     </head>
     <body>
+		<div class="hdb flex flex-nowrap bg-[#EDF1F9] mb-[50px] w-[1440px] h-[80px]
+					 max-[1284px]mx-[25px] max-[1284px]:w-[1280px]
+					 max-[907px]:w-[907px]">
+			<div class="mainb gap-[12px] flex flex-nowrap my-[20px] mx-[84px] w-[1272px] h-[40px]
+						max-[1284px]:mx-[25px]">
+			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
+				<img src="masura.svg"/>
+				</div>
+				<div class="svgcatl flex fw-5 mr-[32px] ml-[32px] justify-center w-[141px] h-[36px] text-[16px] rounded-[32px] text-[white] bg-[#1B2230]">
+				<img src="list-svgrepo-com.svg" class="w-[18px] h-[14px] mt-[10px] mr-[10px]"/>
+				<button class="catalogb ">Каталог</button>
+				</div>
+				<div class="menu w-[113px] h-[36px] w-[70px] border-2 rounded-[32px] 
+							min-[907px]:hidden">
+						<button class="flex justify-center gap-[12px]" style="margin: 8px auto"> 
+							<svg class="fill-[black] mt-[1px]
+										min-[907px]:hidden" width="15px" height="15px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg> Меню
+						</button>
+					</div>
+				<div class="secondb gap-[24px] flex align-center m-[4px]
+							max-[907px]:hidden">
+				<button class="f hoverpay fw-5">Оплата</button>
+				<button class="f fw-5">Доставка</button>
+				<button class="f fw-5">Партнеры</button>
+				<button class="f fw-5">Акции</button>
+				<button class="f fw-5">Журнал</button>
+				</div>
+				<div class="search-main gap-[12px] flex ml-[50px] mt-[2px]
+							max-[1284px]:ml-[0px]
+							max-[907px]:ml-[50px]">
+					<div>
+				<input class="search ssvg w-[192px] h-[36px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv absolute w-[15px] h-[15px]"><img class="relative right-[25px] top-[10px]" src=search-svgrepo-com.svg/></span>
+					</div>
+				<div class="user-main flex gap-[16px] m-[4px]">
+				<div class="user">
+				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
+				</div>
+				<div class="basket relative">
+				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
+				</div>
+				</div>
+				</div>
+		</div>
+		</div>
 		<div class="hdb flex flex-nowrap bg-[#EDF1F9] mb-[50px] w-[1440px] h-[80px]">
 			<div class="mainb gap-[12px] flex flex-nowrap my-[20px] mx-[84px] w-[1272px] h-[40px]">
 			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
 				<img src="masura.svg"/>
 				</div>
-				<div class="">
-				<button class="catalogb bg-[url(list-svgrepo-com.svg)] svgcatl fw-5 mr-[32px] ml-[32px] align-end w-[145px] h-[36px] text-[16px] rounded-[32px] py-[8px] py-[24px] text-[white] bg-[#1B2230]">Каталог</button>
+				<div class="svgcatl flex fw-5 mr-[32px] ml-[32px] justify-center w-[141px] h-[36px] text-[16px] rounded-[32px] text-[white] bg-[#1B2230]">
+				<img src="list-svgrepo-com.svg" class="w-[18px] h-[14px] mt-[10px] mr-[10px]"/>
+				<button class="catalogb ">Каталог</button>
 				</div>
 				<div class="secondb gap-[24px] flex align-center m-[4px]">
 				<button class="f hoverpay fw-5">Оплата</button>
@@ -29,15 +77,132 @@
 				<button class="f fw-5">Акции</button>
 				<button class="f fw-5">Журнал</button>
 				</div>
-				<div class="search-main gap-[12px] flex">
-				<input class="search ssvg w-[192px] h-[36px] ml-[50px] mt-[2px] mb-[2px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
-				<span class="ssv"></span>
+				<div class="search-main gap-[12px] flex ml-[50px] mt-[2px]">
+				<div>
+				<input class="search ssvg w-[192px] h-[36px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv absolute w-[15px] h-[15px]"><img class="relative right-[25px] top-[10px]" src=search-svgrepo-com.svg/></span>
+					</div>
 				<div class="user-main flex gap-[16px] m-[4px]">
 				<div class="user">
 				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
 				</div>
-				<div class="basket">
-				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-58px botton-15px p-px overflow-hidden">99</div>
+				<div class="basket relative">
+				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-[10px] bottom-[10px] botton-15px p-px overflow-hidden">99</div>
+				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
+				</div>
+				</div>
+				</div>
+		</div>
+		</div>
+		<div class="hdb flex flex-nowrap bg-[#1B2230CC] mb-[50px] w-[1440px] h-[80px]">
+			<div class="mainb gap-[12px] flex flex-nowrap my-[20px] mx-[84px] w-[1272px] h-[40px]">
+			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
+				<img src="masura.svg"/>
+				</div>
+				<div class="svgcatl flex fw-5 mr-[32px] ml-[32px] w-[141px] h-[36px] text-[16px] rounded-[32px] text-[white] bg-[#1B2230]">
+				<button class="catalogb flex gap-[10px] text-[#262d3b]" style="margin: auto"> 
+					<svg class="w-[18px] h-[14px] mt-[1.5px] fill-[#262d3b] flex" width="18px" height="14px" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 1H1V3H3V1Z" />
+						<path d="M3 5H1V7H3V5Z" />
+						<path d="M1 9H3V11H1V9Z" />
+						<path d="M3 13H1V15H3V13Z" />
+						<path d="M15 1H5V3H15V1Z" />
+						<path d="M15 5H5V7H15V5Z" />
+						<path d="M5 9H15V11H5V9Z" />
+						<path d="M15 13H5V15H15V13Z" />
+					</svg> Каталог</button>
+				</div>
+				<div class="secondb gap-[24px] flex align-center m-[4px]">
+				<button class="f hoverpay fw-5">Оплата</button>
+				<button class="f fw-5">Доставка</button>
+				<button class="f fw-5">Партнеры</button>
+				<button class="f fw-5">Акции</button>
+				<button class="f fw-5">Журнал</button>
+				</div>
+				<div class="search-main gap-[12px] flex ml-[50px] mt-[2px]">
+				<div>
+				<input class="search ssvg w-[192px] h-[36px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv absolute w-[15px] h-[15px]"><img class="relative right-[25px] top-[10px]" src=search-svgrepo-com.svg/></span>
+					</div>
+				<div class="user-main flex gap-[16px] m-[4px]">
+				<div class="user">
+				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
+				</div>
+				<div class="basket relative">
+				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-[10px] bottom-[10px] botton-15px p-px overflow-hidden">99</div>
+				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
+				</div>
+				</div>
+				</div>
+		</div>
+		</div>
+		<div class="hdb flex flex-nowrap bg-[#EDF1F9] mb-[50px] w-[1280px] h-[80px]">
+			<div class="mainb gap-[12px] flex flex-nowrap my-[20px] mx-[25px] w-[1272px] h-[40px]">
+			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
+				<img src="masura.svg"/>
+				</div>
+				<div class="svgcatl flex fw-5 mr-[32px] ml-[32px] justify-center w-[141px] h-[36px] text-[16px] rounded-[32px] text-[white] bg-[#1B2230]">
+				<img src="list-svgrepo-com.svg" class="w-[18px] h-[14px] mt-[10px] mr-[10px]"/>
+				<button class="catalogb ">Каталог</button>
+				</div>
+				<div class="secondb gap-[24px] flex align-center m-[4px]">
+				<button class="f hoverpay fw-5">Оплата</button>
+				<button class="f fw-5">Доставка</button>
+				<button class="f fw-5">Партнеры</button>
+				<button class="f fw-5">Акции</button>
+				<button class="f fw-5">Журнал</button>
+				</div>
+				<div class="search-main gap-[12px] flex mt-[2px]">
+				<div>
+				<input class="search ssvg w-[192px] h-[36px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv absolute w-[15px] h-[15px]"><img class="relative right-[25px] top-[10px]" src=search-svgrepo-com.svg/></span>
+					</div>
+				<div class="user-main flex gap-[16px] m-[4px]">
+				<div class="user">
+				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
+				</div>
+				<div class="basket relative">
+				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-[10px] bottom-[10px] botton-15px p-px overflow-hidden">99</div>
+				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
+				</div>
+				</div>
+				</div>
+		</div>
+		</div>
+		<div class="hdb flex flex-nowrap bg-[#EDF1F9] mb-[50px] w-[907px] h-[80px]">
+			<div class="mainb gap-[12px] flex flex-nowrap  my-[20px] mx-[25px] w-[1272px] h-[40px]">
+			<div class="logob mt-[6px] align-end w-[179px] h-[24px]">
+				<img src="masura.svg"/>
+				</div>
+				<div class="svgcatl flex fw-5 mr-[32px] ml-[32px] justify-center w-[141px] h-[36px] text-[16px] rounded-[32px] text-[white] bg-[#1B2230]">
+				<img src="list-svgrepo-com.svg" class="w-[18px] h-[14px] mt-[10px] mr-[10px]"/>
+				<button class="catalogb ">Каталог</button>
+				</div>
+				<div class="menu w-[113px] h-[36px] w-[70px] border-2 rounded-[32px] ">
+						<button class="flex justify-center gap-[12px]" style="margin: 8px auto"> 
+							<svg class="fill-[black] mt-[1px]" width="15px" height="15px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg> Меню
+						</button>
+					</div>
+				<div class="secondb gap-[24px] flex align-center m-[4px] hidden">
+				<button class="f hoverpay fw-5">Оплата</button>
+				<button class="f fw-5">Доставка</button>
+				<button class="f fw-5">Партнеры</button>
+				<button class="f fw-5">Акции</button>
+				<button class="f fw-5">Журнал</button>
+				</div>
+				<div class="search-main gap-[12px] ml-[50px] flex mt-[2px]">
+				<div>
+				<input class="search ssvg w-[192px] h-[36px] bg-[#E5EFFF] py-[6px] px-[16px] rounded-[18px] outline-[#9AAACC]" type="search" placeholder="Поиск">
+				<span class="ssv absolute w-[15px] h-[15px]"><img class="relative right-[25px] top-[10px]" src=search-svgrepo-com.svg/></span>
+					</div>
+				<div class="user-main flex gap-[16px] m-[4px]">
+				<div class="user">
+				<span class="user-acc"><img src="user-square-svgrepo-com.svg"/></span>
+				</div>
+				<div class="basket relative">
+				<div class="number-positions absolute bg-[#FD33BD] text-[white] rounded-[32px] w-[23.33px] h-[23.33px] content-center text-center left-[10px] bottom-[10px] botton-15px p-px overflow-hidden">99</div>
 				<span class="basket-positions"><img src="shopping-basket-svgrepo-com.svg"/></span>
 				</div>
 				</div>
@@ -58,18 +223,23 @@
 		</div>
 		<div class="container bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
 			<div class="container2">
-			<div class="box3 fw-4 flex flex-nowrap">
-				<div class="place ">
-					<label for="email" class="label1 flex text-sm mb-1"> Input Label </label>
+			<div class="box3 fw-4p">
+				<div class="place">
+					<label for="email" class="label1 relative flex flex-wrap text-sm mb-1"> Input Label </label>
 					<input
-						name="text_input"
+						name="email"
 						type="email"
 						id="email"
 						placeholder="Input placeholder"
-						class="inpt base2 relative fw-4 rounded-xs py-[8px] pr-[12px] outline outline-stone-950 bg-stone-100 text-red-950 placeholder:pl-4 focus:placeholder:text-[#1B2230] focus:outline-[#A6B3CD] focus:outline-[4px] " />
-					<span class="absolute"><img class="relative invisible peer-invalid:visible right-[18px] top-[10px] border-2 border-[#535C6F] rounded-[50%] w-[13px] h-[13px]" src="close.svg"/></span>
-					<span class="absolute"><img class="relative invisible peer-valid:visible right-[18px] top-[10px] bg-[#535C6F] rounded-[50%] w-[13px] h-[13px]" src="check.svg"/></span>
-					<label for="email" class="label2 flex text-xs mt-1 text-stone-600"> Input helper text </label>
+						class="inpt relative peer base2 relative fw-4 rounded-xs py-[8px] pr-[12px] outline outline-stone-950 bg-stone-100 text-red-950 placeholder:pl-4 focus:placeholder:text-[#1B2230] focus:outline-[#A6B3CD] focus:outline-[4px]" />
+					<span class="absolute flex w-[13px] h-[13px] peer-invalid:block hidden"> <svg class="relative border-2 bottom-[23px] left-[165px] border-[#535C6F] rounded-[50%] w-[13px] h-[13px]" width="15" height="15" viewBox="0 -1.5 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.604 8.39588L8.396 1.60388" stroke="#535C6F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M8.396 8.39588L1.604 1.60388" stroke="#535C6F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg></span>
+					<span class="absolute flex w-[13px] h-[13px] peer-valid:block hidden"><svg class="relative bg-[#535C6F] bottom-[23px]  left-[165px] rounded-[50%] w-[13px] h-[13px]" width="15" height="12" viewBox="1 -8 12 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M5.6112 10.8612L14.3612 2.11155L14.3612 2.11151C14.49 1.98254 14.5623 1.80772 14.5622 1.62546C14.5621 1.44321 14.4897 1.26845 14.3608 1.13958C14.2319 1.01071 14.0571 0.938291 13.8749 0.938232C13.6926 0.938173 13.5178 1.01048 13.3889 1.13927L13.3888 1.13929L5.12499 9.40283L1.23607 5.51426L1.19256 5.55777L1.23607 5.51425C1.17223 5.45042 1.09644 5.39979 1.01302 5.36524C0.929609 5.3307 0.84021 5.31293 0.749928 5.31293C0.659646 5.31294 0.570249 5.33073 0.486842 5.36529C0.403436 5.39985 0.327652 5.45049 0.263818 5.51434C0.199985 5.57818 0.149352 5.65397 0.114809 5.73739C0.080267 5.8208 0.0624922 5.9102 0.0625 6.00048C0.0625078 6.09076 0.0802978 6.18016 0.114855 6.26357C0.149411 6.34697 0.200058 6.42276 0.2639 6.48659L4.63884 10.8612L5.6112 10.8612Z" fill="white" stroke="white" stroke-width="0.125"/>
+						</svg></span>
+					<label for="email" class="label2 relative flex flex-wrap text-xs mt-1 text-stone-600"> Input helper text </label>
 				</div>
 			</div>
 			<div class="box4 fw-4 flex flex-wrap gap-10 my-4">
@@ -108,7 +278,7 @@
 		</div>
 		<div class="container3 min-w-5xl m-[30px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% m-auto mt-10 max-w-3xl rounded-3xl bg-teal-300 py-2 shadow-xl p-8">
 			<div class="box5 flex mt-[20px] ml-[30px] gap-[12px]">
-				<div role="tabpanel" tabindex="-1" class="imagesb bb cursor-pointer focus:outline-[3px] focus:outline-[#9AAACC] hover:shadow-2xl bg-[white] rounded-[18px] w-[300px]
+				<div role="tabpanel" tabindex="1" class="imagesb bb cursor-pointer focus:outline-[3px] focus:outline-[#9AAACC] hover:shadow-2xl bg-[white] rounded-[18px] w-[300px]
 														  max-[1280px]:bg-[white] max-[1280px]:rounded-[18px] max-[1280px]:w-[196px] max-[1280px]:h-[245px]
 														  max-[960px]:bg-[white] max-[960px]:rounded-[8px] max-[960px]:w-[100px] max-[960px]:h-[130px]">
 					<picture>
